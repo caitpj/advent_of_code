@@ -1,5 +1,3 @@
-# import str
-
 
 def main():
     file1 = open("input.txt", "r")
