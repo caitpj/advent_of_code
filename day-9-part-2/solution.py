@@ -1,5 +1,3 @@
-import re
-
 def parse_histories(file):
     with open(file, 'r') as file:
         string_file = file.read()

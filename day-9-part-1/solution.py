@@ -1,5 +1,3 @@
-import re
-
 def parse_histories(file):
     with open(file, 'r') as file:
         string_file = file.read()
@@ -45,13 +43,4 @@ def main():
     print(total_sum)
 
 
-
-
-
-
 main()
-
-
-# {'aaa':['bbb','ccc']}
-# RLLRR
-# [1,0,0,1,1]
